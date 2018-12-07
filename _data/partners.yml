@@ -1,0 +1,23 @@
+- name: "Paderborn University"
+  site: "https://www.uni-paderborn.de/en/university/"
+  img: upb.png
+  margin: 30
+  md: 3
+
+- name: "University of Alberta"
+  site: "https://www.ualberta.ca/"
+  img: uoa.png
+  margin: 55
+  md: 2
+
+- name: "Software Campus"
+  site: "https://www.softwarecampus.de/"
+  img: sc.png
+  margin: 0
+  md: 2
+
+- name: "BMBF"
+  site: "https://www.bmbf.de/"
+  img: bmbf.png
+  margin: 40
+  md: 2

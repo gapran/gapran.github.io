@@ -1,0 +1,42 @@
+{% for publication in site.data.publications %}
+
+<!-- Publication Modal {{ publication.id }} -->
+<div class="portfolio-modal modal fade" id="publicationModal{{ publication.id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ publication.name }}</h2>
+                            <p class="item-intro text-muted">
+                                Presented at
+                                <a href="{{ publication.conf_url }}" target="_blank">{{ publication.conf_full }}</a>
+                                , {{ publication.date }}
+                            </p>
+                            <span style="font-weight: bold;">Abstract:</span>
+                            <p>{{ publication.abstract }}</p>
+                            <p>
+                                <span style="font-weight: bold;">Links:</span>
+                                <a href="{{ publication.paper_url }}" target="_blank">Paper</a>
+                                {% if publication.presentation_url %} <a href="{{ publication.presentation_url }}" target="_blank"> - Presentation</a> {% endif %}
+                                {% if publication.artefacts_url %} <a href="{{ publication.artefacts_url }}" target="_blank"> - Artefacts</a> {% endif %}
+                            </p>
+                            <a href="{{ publication.paper_url }}">
+                                <img class="img-responsive img-centered publication-big" src="/assets/img/publications/{{ publication.img }}" alt="Paper">
+                            </a>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close publication</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

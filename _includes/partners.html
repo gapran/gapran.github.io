@@ -1,0 +1,20 @@
+<!-- Partners Section -->
+<section id="partners" class="bg-light-gray">
+    <div class="container" style="padding:50px;">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Partners</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for partner in site.data.partners %}
+            <div class="col-md-{{ partner.md }}" style="margin-top:{{ partner.margin }}px;">
+                <a href="{{ partner.site }}" target="_blank">
+                    <img src="/assets/img/logos/{{ partner.img }}" class="img-responsive img-centered logo" alt="{{ partner.name }} logo">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

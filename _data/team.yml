@@ -1,0 +1,47 @@
+- name: "Lisa Nguyen"
+  role: "Project lead"
+  site: "http://lisanqd.com/"
+  img: lisa.png
+  affiliation: "Paderborn University"
+
+- name: "Eric Bodden"
+  role: "Academic mentor"
+  site: "https://www.bodden.de/"
+  img: eric.png
+  affiliation: "Paderborn University"
+
+- name: "Karim Ali"
+  role: "Researcher"
+  site: "https://karimali.ca/"
+  img: karim.png
+  affiliation: "University of Alberta"
+
+- name: "James Wright"
+  role: "Researcher"
+  site: "http://jrwright.info/"
+  img: james.png
+  affiliation: "University of Alberta"
+
+- name: "Osama Ali"
+  role: "Student developer"
+  img: osama.jpg
+  affiliation: "Paderborn University"
+
+- name: "Rashmi Gupta"
+  role: "Student developer"
+  site: "https://www.linkedin.com/in/rashmi-gupta-b52ba877/"
+  img: rashmi.png
+  affiliation: "Paderborn University"
+
+- name: "Haseeb Ahmad"
+  role: "Student developer"
+  site: "https://www.linkedin.com/in/haseeb-ahmad-25a02aa7/"
+  img: haseeb.jpg
+  affiliation: "Paderborn University"
+
+- name: "G. S. Varma"
+  role: "Student developer"
+  site: "https://www.linkedin.com/in/gsvarma/"
+  img: varma.JPG
+  affiliation: "Paderborn University"
+  
