@@ -22,6 +22,12 @@
   img: james.png
   affiliation: "University of Alberta"
 
+- name: "Rene Fahr"
+  role: "Researcher"
+  site: "https://wiwi.uni-paderborn.de/dep1/bwl-insb-corporate-governance-prof-fahr/team/prof-dr-rene-fahr/"
+  img: rene.jpg
+  affiliation: "Paderborn University"
+
 - name: "Osama Ali"
   role: "Student developer"
   img: osama.jpg
