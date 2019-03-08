@@ -28,6 +28,12 @@
   img: rene.jpg
   affiliation: "Paderborn University"
 
+- name: "Kirsten Thommes"
+  role: "Researcher"
+  site: "https://wiwi.uni-paderborn.de/dep1/organizational-behavior-prof-dr-kirsten-thommes/team/prof-dr-kirsten-thommes/"
+  img: kirsten
+  affiliation: "Paderborn University"
+
 - name: "Osama Ali"
   role: "Student developer"
   img: osama.jpg
