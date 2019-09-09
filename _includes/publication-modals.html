@@ -20,6 +20,8 @@
                                 <a href="{{ publication.conf_url }}" target="_blank">{{ publication.conf_full }}</a>
                                 , {{ publication.date }}
                             </p>
+                            {% if publication.note %} <p>{{ publication.note }}</p>
+                                {% endif %}
                             <span style="font-weight: bold;">Abstract:</span>
                             <p>{{ publication.abstract }}</p>
                             <p>

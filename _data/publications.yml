@@ -9,3 +9,42 @@
   abstract: "In the past decades, static code analysis has become a prevalent means to detect bugs and security vulnerabilities in software systems. As software becomes more complex, analysis tools also report lists of increasingly complex warnings that developers need to address on a daily basis. The novel insight we present in this work is that static analysis tools and video games both require users to take on repetitive and challenging tasks. Importantly, though, while good video games manage to keep players engaged, static analysis tools are notorious for their lacking user experience, which prevents developers from using them to their full potential, frequently resulting in dissatisfaction and even tool abandonment. We show parallels between gaming and using static analysis tools, and advocate that the user-experience issues of analysis tools can be addressed by looking at the analysis tooling system as a whole, and by integrating gaming elements that keep users engaged, such as providing immediate and clear feedback, collaborative problem solving, or motivators such as points and badges."
   paper_url: "http://lisanqd.com/wp-content/uploads/2018/10/fse18nier.pdf"
   artefacts_url: "http://lisanqd.com/home/gamifying-static-analysis/"
+
+- id: 02
+  name: "Explaining Static Analysis for Software Security – A Perspective"
+  preview: explain19.png
+  img: explain19-big.png
+  conf: "EXPLAIN"
+  conf_full: "EXPLAIN workshop, co-located with ASE"
+  conf_url: "https://2019.ase-conferences.org/home/explain-2019"
+  date: "11.2019"
+  abstract: "Static code analysis is widely used to support the development of secure software. It helps developers detect potential bugs and security vulnerabilities in a program's source code without executing it. While the potential benefits of static analysis tools are beyond question, their usability is often criticised and prevents software developers from using static analysis to its full potential. In the past decade, researchers have studied developer needs and opposed them to available static analysis tool functionalities. In this paper, we summarize the main design challenges for building usable static analysis tools, and show that they revolve around the notion of explainability. We present existing analysis tools and current research in static analysis usability, and detail how they approach those challenges. This leads us to proposing potential lines of future work in explainability for static analysis, namely turning static analysis tools into assistants and teachers."
+  paper_url: "http://lisanqd.com/wp-content/uploads/2019/08/explain19.pdf"
+
+- id: 03
+  name: "Codebase-Adaptive Detection of Security-Relevant Methods"
+  preview: issta19.png
+  img: issta19-big.png
+  conf: "ISSTA"
+  conf_full: "ACM/SIGSOFT International Symposium on Software Testing and Analysis"
+  conf_url: "https://conf.researchr.org/home/issta-2019"
+  date: "07.2019"
+  abstract: "More and more companies use static analysis to perform regular code reviews to detect security vulnerabilities in their code, configuring them to detect various types of bugs and vulnerabilities such as the SANS top 25 or the OWASP top 10. For such analyses to be as precise as possible, they must be adapted to the code base they scan. The particular challenge we address in this paper is to provide analyses with the correct security-relevant methods (SRM): sources, sinks, etc.
+We present SWAN, a fully-automated machine-learning approach to detect sources, sinks, validators, and authentication methods for Java programs. SWAN further classifies the SRM into specific vulnerability classes of the SANS top 25. To further adapt the lists detected by SWAN to the code base and to improve its precision, we also introduce AssistSwan, an extension to SWAN that allows analysis users to refine the classifications. On twelve popular Java frameworks, SWAN achieves an average precision of 0.826, which is better or comparable to existing approaches. Our experiments show that AssistSwan requires a relatively low effort from the developer to significantly improve its precision."
+  paper_url: "http://lisanqd.com/wp-content/uploads/2019/07/issta19.pdf"
+  artefacts_url: "https://github.com/secure-software-engineering/swan"
+  note: "In collaboration with the Software Campus SecuCheck project."
+
+- id: 04
+  name: "Codebase-Adaptive Detection of Security-Relevant Methods"
+  preview: ase19.png
+  img: ase19-big.png
+  conf: "ASE Demonstrations"
+  conf_full: "IEEE/ACM International Conference on Automated Software Engineering - Demonstrations"
+  conf_url: "https://2019.ase-conferences.org/track/ase-2019-Demonstrations"
+  date: "11.2019"
+  abstract: "To detect specific types of bugs and vulnerabilities, static analysis tools must be correctly configured with security-relevant methods SRM, e.g., sources, sinks, sanitizers and authentication methods---usually a very labour-intensive and error-prone process. This work presents the semi-automated tool AssistSwan, which aids the configuration with an IntelliJ plugin based on active machine learning. It integrates our novel automated machine-learning approach SWAN, which identifies and classifies Java SRM. AssistSwan further integrates user feedback through iterative learning. AssistSwan aids developers by asking them to classify at each point in time exactly those methods whose classification best impact the classification result. Our experiments show that AssistSwan classifies SRM with a high precision, and requires a relatively low effort from the user. A video demo of AssistSwan can be found at https://youtu.be/fSyD3V6EQOY. The source code is available at https://github.com/secure-software-engineering/swan."
+  paper_url: "http://lisanqd.com/wp-content/uploads/2019/08/ase19tool.pdf"
+  artefacts_url: "https://github.com/secure-software-engineering/swan"
+  note: "In collaboration with the Software Campus SecuCheck project."
+
